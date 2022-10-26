@@ -23,14 +23,15 @@ body {
     text-align: center;
     font-family: sans-serif;
     color: #ff9500;
-    font-family: 'Rubik Marker Hatch', cursive;
+    font-family: 'Luckiest+Guy', cursive;
+    
 }
 
 h1 {
 
     font-size: 78px;
     font-weight: normal;
-    letter-spacing: -2px;
+    letter-spacing: 4px;
     margin-bottom: 12px;
     line-height: 1.2;
     color: #000000;
@@ -56,12 +57,12 @@ h3 {
 
 h4 {
     font-family: 'meriweather';
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
     text-transform: normal;
-    color: #ff3c00;
+    color: #ff9d00;
 
 }
 
@@ -100,7 +101,7 @@ img {
   margin: 1px 1px;
   cursor: pointer;
   border-radius: 70px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Merriweather', cursive;
   text-transform: uppercase;
 
 
