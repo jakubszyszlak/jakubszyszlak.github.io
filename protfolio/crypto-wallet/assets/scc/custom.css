@@ -1,0 +1,12 @@
+/* Add your custom CSS here */
+
+
+body { font-family: 'outfit', sans-serif}
+
+
+header.hero-bg  {min-height: 70vh }
+
+.section-selector-4 { background-color: var(--green-900) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--green-600) }
+
+

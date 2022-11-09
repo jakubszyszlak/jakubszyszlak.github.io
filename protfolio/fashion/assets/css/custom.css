@@ -1,0 +1,14 @@
+/* Add your custom CSS here */
+
+
+
+.section-selector-1 { background-color: var(--trend-900) }
+
+.section-selector-2 { background-color: var(--slate-200) }
+
+.section-selector-3 { background-color: var(--white-000) }
+
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--white-000) }
+
+body {  font-family: 'Playfair Display', serif;
+}

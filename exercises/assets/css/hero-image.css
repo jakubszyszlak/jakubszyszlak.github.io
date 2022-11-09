@@ -44,11 +44,12 @@ body {
   .hero-block { height: 80vh }
 }
 
-.hero-text-container { padding: 0 12% 4% 12%; z-index: 2 }
+.hero-text-container { padding: 0 12% 4% 12%; 
+  z-index: 2 }
 
 .hero-bg-media {
     position: absolute; top: 0; right: 0; bottom: 0; left: 0; 
-    z-index: 0;
+    z-index: 1;
 }
                   
 .hero-bg-media img {
