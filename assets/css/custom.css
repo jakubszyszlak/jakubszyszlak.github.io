@@ -1,0 +1,35 @@
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--white-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--black-000) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--black-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--white-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--black-000) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--black-000) }
+
+.section-selector-1 { background-color: var(--white-000) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--black-000) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--white-000) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--black-000) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--rose-600) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--rose-700) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--rose-900) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--indigo-900) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--lime-400) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--indigo-900) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--sky-900) }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--sky-900) }
+.section-selector-1 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(0,0,0,0.4) 4px 10px 16px 0 }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--black-000) }
