@@ -4,9 +4,41 @@
 body { font-family: 'outfit', sans-serif}
 
 
-header.hero-bg  {min-height: 70vh }
+header.hero-bg  {min-height: 60vh }
 
-.section-selector-4 { background-color: var(--green-900) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--green-600) }
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 .badge { background-color: var(--trend-700) }
+.section-selector-1 .badge { color: var(--white-000) }
+
+
+.section-selector-2 { background-color: var(--trend-800) }
+.section-selector-2 h2 { color: var(--white-000) }
+.section-selector-2 .col-2.col-text p { color: var(--white-000) }
+.section-selector-2 .col-2.col-text li::marker, .section-selector-1 ul.fa-ul li span.fa-li i { color: var(--white-000) }
+.section-selector-2 .col-2.col-text ul li { color: var(--white-000) }
+
+
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-3 h2 { color: var(--white-000) }
+.section-selector-3 .col-2.col-text p { color: var(--white-000) }
+.section-selector-3 .col-2.col-text li::marker, .section-selector-1 ul.fa-ul li span.fa-li i { color: var(--white-000) }
+.section-selector-3 .col-2.col-text ul li { color: var(--white-000) }
+.section-selector-3 { background-color: var(--trend-700) }
+
+
+.section-selector-4 { background-color: var(--trend-800) }
+.section-selector-4 .col-2.col-text li::marker, .section-selector-1 ul.fa-ul li span.fa-li i { color: var(--white-000) }
+.section-selector-4 .col-2.col-text ul li { color: var(--white-000) }
+.section-selector-4 { background-color: var(--trend-800) }
+.section-selector-4 { background-color: var(--trend-800) }
+.section-selector-4 .col-2.col-text p { color: var(--white-000) }
+.section-selector-4 h2 { color: var(--white-000) }
+
+
+
+
+.section-selector-5 { background-color: #0b0d11 }
+.section-selector-5 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--trend-700) }
+
 
 

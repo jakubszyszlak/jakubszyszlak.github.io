@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakub Szu | Home Page</title>
-    <meta name="description" content="Take your business to the next level.">
+    <title>Jakub Szu | Contact</title>
+    <meta name="description" content="Helping business like yours.">
 
 	<!-- Preload large image -->
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
@@ -33,13 +33,10 @@
 
 <body>
 
-    <!-- menu header -->
-
-
     <nav class="theme-dark">
         <div class="container-menu menu-desktop">
-            <a href="index.html" class="brand">
-                <img src="assets/img/wu.png" alt="WU">
+            <a href="../index.html" class="brand">
+                <img src="../assets/img/wu.png" alt="WU">
             </a>
 
             <div class="container-menu-links">
@@ -51,10 +48,9 @@
                 </div>
 
                 <ul class="links-wrapper links-bold">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="protfolio/index.html">Portfolio</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=zh0a0bQzUX0">Music</a></li>
-                    <li><a class="btn btn-outline btn-soft" id="btn-cta" href="contact/index.html"><i class="fa-solid fa-user"></i> <span>Subscribe</span></a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../protfolio/index.html">Portfolio</a></li>
+                    <li><a class="btn btn-outline btn-soft" id="btn-cta" href="../contact/index.html"><i class="fa-solid fa-user"></i> <span>Subscribe</span></a></li>
                 </ul>
             </div>
 
@@ -64,8 +60,8 @@
     <header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-60vh">
 
         <div class="container-text">
-            <h1 class="text-shadow">Jakub Szu</h1>
-            <h2 class="text-shadow">Web Designer and Frond-end Developer</h2>
+            <h1 class="text-shadow">Realise your digital potetial</h1>
+            <h2 class="text-shadow">Helping businesses of every size and type to get the most from digital platforms.</h2>
         </div>
 
         <div class="container-btn">
@@ -74,7 +70,7 @@
         </div>
 
         <div class="container-media">
-            <img src="assets/img/zako.jpg" alt="Placeholder image">
+            <img src="../assets/img/contact.png" alt="Placeholder image">
         </div>
 
         <div class="container-overlay"></div>
@@ -82,66 +78,61 @@
     </header>
 
 
-
-
-
-    <!-- main content with sections -->
     <main>
 
-        <!-- replace these empty sections with your own or delete them. -->
+        
+    <section class="container-contact-form w-800px">
 
+        <!-- Contact form starts here -->
+        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/xknelzvw">
 
-	<!-- section starts here -->
+            <div class="contact-form-upper text-center">
+                <h2>Realise your digital potetial</h2>
+                <p>Helping businesses of every size and type to get the most from digital platforms.</p>
+            </div>
 
-	<section class="theme-light section-selector-1">
+            <!-- Begin contact form fields -->
 
-		<div class="col-1 text-center">
-			<h2>Recent projects</h2>
-			<h3>Below you can see some examples of my recent work. Check out my complete portfolio.</h3>
-		</div>
+            <div class="flex-row">
+                <div class="item-name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                </div>
+                <div class="item-email">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                </div>
+            </div>
 
-		<!-- Begin three-column flexbox grid -->
-		<div class="flex-cols-3 cols-padding cols-shadows cols-corners-soft cols-borders-width-2">
+            <div class="flex-row">
+                <div class="item-textarea">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                </div>
 
-			<div class="col-3">
-				<figure>
-					<img src="assets/img/project-van-gogh.png" alt="Placeholder image">
-				</figure>
-			<h3>Vincent Van Gogh</h3>	
-			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p><a href="protfolio/van-gogh/index.html" class="btn btn-solid btn-shadow btn-large"><span>View Project</span><i class="fas fa-arrow-right"></i></a></div>
+                <div class="item-btn">
+                    <button id="btn-submit" type="submit"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button>
+                </div>
+            </div>
 
-			<div class="col-3">
-				<figure>
-					<img src="assets/img/project-smoothie.jpg" alt="Placeholder image">
-				</figure>
-			<h3>Smooth Smoothies</h3>	
-			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p><a href="protfolio/smoothies/index.html" class="btn btn-solid btn-shadow btn-large"><span>View Project</span><i class="fas fa-arrow-right"></i></a></div>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <!-- End contact form fields -->
 
-			<div class="col-3">
-				<figure>
-					<img src="assets/img/project-fashion.jpg" alt="Placeholder image">
-				</figure>
-			<h3>Fashion Shop</h3>	
-			<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p><a href="protfolio/fashion/index.html" class="btn btn-solid btn-shadow btn-large"><span>View Project</span><i class="fas fa-arrow-right"></i></a></div>
-
-		</div>
-		<!-- End three-column flexbox grid -->
-
-	</section>
-
+        </form><!-- Contact form ends here -->
+</section><!-- End container for contact form -->
 
     </main>
+
 
 	<footer class="theme-dark text-center-desktop text-center-mobile">
 
 		<h2>Jakub Szu</h2>
+        <h3>Web Designer and Frond-end Developer</h3>
 
-		<h3>Web Designer and Frond-end Developer</h3>
-
-		<ul class="footer-links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="protfolio/index.html">Portfolio</a></li>
-			<li><a href="contact/index.html">Contact</a></li>
+        <ul class="footer-links">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../protfolio/index.html">Portfolio</a></li>
+			<li><a href="../contact/index.html">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
@@ -150,11 +141,7 @@
 			<li><a href="https://www.instagram.com/kuba_wielkiszu/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
 		</ul>
 
-		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
-
 	</footer>
-
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
